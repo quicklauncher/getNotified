@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cook.pro" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ico"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".OrderDetails" >
+        </activity>
+
+
+        <activity android:name=".splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Rusian_Salad" />
+        <activity android:name=".Smoked_Kalyji" />
+        <activity android:name=".Muton_Nehari" />
+        <activity android:name=".Imli_Ke_Chtney" />
+        <activity android:name=".Chicken_Keema_Paratha" />
+        <activity android:name=".Afghani_Palao" />
+        <activity android:name=".Khatay_Methay_Aalo" />
+        <activity android:name=".Keema_Biryani" />
+        <activity android:name=".Chick_Shashlik" />
+        <activity android:name=".Tika_Pulao" />
+        <activity android:name=".Macroni_Chat" />
+        <activity android:name=".Aalo_Kabab_Naan" />
+        <activity android:name=".Bef_Qorma" />
+        <activity android:name=".muton_Rosh" />
+        <activity android:name=".Mutton_Bir" />
+        <activity android:name=".Chick_Pakora" />
+        <activity android:name=".white_chick" />
+        <activity android:name=".keema_karaylay" />
+        <activity android:name=".Homemade_Shawarma" />
+        <activity android:name=".lahori_mrg_cholay" />
+        <activity android:name=".Murgh_Mussalam" />
+        <activity android:name=".testm" />
+        <activity android:name=".o20" />
+        <activity android:name=".o19" />
+        <activity android:name=".o18" />
+        <activity android:name=".o17" />
+        <activity android:name=".o16" />
+        <activity android:name=".o15" />
+        <activity android:name=".o14" />
+        <activity android:name=".o13" />
+        <activity android:name=".o12" />
+        <activity android:name=".o11" />
+        <activity android:name=".o10" />
+        <activity android:name=".o8" />
+        <activity android:name=".o9" />
+        <activity android:name=".o7" />
+        <activity android:name=".o6" />
+        <activity android:name=".o5" />
+        <activity android:name=".o4" />
+        <activity android:name=".o3" />
+        <activity android:name=".o2" />
+        <activity android:name=".o1" />
+        <activity android:name=".t20" />
+        <activity android:name=".t19" />
+        <activity android:name=".t18" />
+        <activity android:name=".t17" />
+        <activity android:name=".t16" />
+        <activity android:name=".t15" />
+        <activity android:name=".t14" />
+        <activity android:name=".t13" />
+        <activity android:name=".t12" />
+        <activity android:name=".t11" />
+        <activity android:name=".t10" />
+        <activity android:name=".t9" />
+        <activity android:name=".t8" />
+        <activity android:name=".t7" />
+        <activity android:name=".t6" />
+        <activity android:name=".t5" />
+        <activity android:name=".t4" />
+        <activity android:name=".t3" />
+        <activity android:name=".t2" />
+        <activity android:name=".t1" />
+        <activity android:name=".c20" />
+        <activity android:name=".c19" />
+        <activity android:name=".c18" />
+        <activity android:name=".c17" />
+        <activity android:name=".c16" />
+        <activity android:name=".c15" />
+        <activity android:name=".c14" />
+        <activity android:name=".c13" />
+        <activity android:name=".c12" />
+        <activity android:name=".c11" />
+        <activity android:name=".c10" />
+        <activity android:name=".c9" />
+        <activity android:name=".c8" />
+        <activity android:name=".c7" />
+        <activity android:name=".c6" />
+        <activity android:name=".c5" />
+        <activity android:name=".c4" />
+        <activity android:name=".c3" />
+        <activity android:name=".c2" />
+        <activity android:name=".c1" />
+        <activity android:name=".a20" />
+        <activity android:name=".a19" />
+        <activity android:name=".a18" />
+        <activity android:name=".a17" />
+        <activity android:name=".a16" />
+        <activity android:name=".a15" />
+        <activity android:name=".a14" />
+        <activity android:name=".a13" />
+        <activity android:name=".a12" />
+        <activity android:name=".a11" />
+        <activity android:name=".a10" />
+        <activity android:name=".a9" />
+        <activity android:name=".a8" />
+        <activity android:name=".a7" />
+        <activity android:name=".a6" />
+        <activity android:name=".a5" />
+        <activity android:name=".a4" />
+        <activity android:name=".a3" />
+        <activity android:name=".a2" />
+        <activity android:name=".a1" />
+        <activity android:name=".ind20" />
+        <activity android:name=".ind19" />
+        <activity android:name=".ind18" />
+        <activity android:name=".ind17" />
+        <activity android:name=".ind16" />
+        <activity android:name=".ind15" />
+        <activity android:name=".ind14" />
+        <activity android:name=".ind13" />
+        <activity android:name=".ind12" />
+        <activity android:name=".ind11" />
+        <activity android:name=".ind10" />
+        <activity android:name=".ind9" />
+        <activity android:name=".ind8" />
+        <activity android:name=".ind7" />
+        <activity android:name=".ind6" />
+        <activity android:name=".ind5" />
+        <activity android:name=".ind4" />
+        <activity android:name=".ind3" />
+        <activity android:name=".ind2" />
+        <activity android:name=".ind1" />
+        <activity android:name=".chicken_white_karahi" />
+        <activity android:name=".hareesa" />
+        <activity android:name=".pakistani" />
+        <activity android:name=".other" />
+        <activity android:name=".china" />
+        <activity android:name=".turk" />
+        <activity android:name=".arab" />
+        <activity android:name=".indd" />
+        <activity android:name=".Pakki" />
+        <activity android:name=".MainActivity" >
+        </activity>
+    </application>
+
+</manifest>
